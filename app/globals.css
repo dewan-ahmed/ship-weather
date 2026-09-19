@@ -1,6 +1,6 @@
 :root {
   color-scheme: dark;
-  font-family: var(--font-sans), system-ui, sans-serif;
+  font-family: ui-sans-serif, system-ui, sans-serif;
   line-height: 1.4;
 }
 
@@ -246,7 +246,7 @@ a {
 
 h1,
 h2 {
-  font-family: var(--font-display), Georgia, serif;
+  font-family: ui-serif, Georgia, serif;
   font-weight: 500;
   margin: 0 0 10px;
 }
@@ -359,7 +359,7 @@ label {
 
 .stats b {
   font-size: 28px;
-  font-family: var(--font-display), Georgia, serif;
+  font-family: ui-serif, Georgia, serif;
 }
 
 .forecast {

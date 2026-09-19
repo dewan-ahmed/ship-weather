@@ -33,7 +33,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) and fill in:
+Open [http://127.0.0.1:3000](http://127.0.0.1:3000) in your local browser and fill in:
 
 - Account ID
 - Organization
@@ -42,6 +42,8 @@ Open [http://localhost:3000](http://localhost:3000) and fill in:
 - Harness URL (`https://app.harness.io` unless you live on another cluster)
 
 Then hit **Check the weather**.
+
+Use that loopback URL, not a Cursor preview or the LAN/`Network:` address. Those often go through a proxy and return “Accessible only on corporate network.” Fonts are system UI only, so a corporate filter cannot intercept Google Fonts.
 
 ## Will my PAT wash out to sea?
 
